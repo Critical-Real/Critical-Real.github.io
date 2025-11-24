@@ -1,1 +1,1 @@
-# Critical-Real.github.io
+[Criticalreal.com](https://criticalreal.com/)
