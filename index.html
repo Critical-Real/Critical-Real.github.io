@@ -43,27 +43,7 @@
         }
 
         .social-holder {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-            max-width: 500px;
-            width: 100%;
             text-align: center;
-        }
-
-        .social-holder h1 {
-            margin-bottom: 20px;
-            color: #333;
-            font-size: 28px;
-            font-weight: 600;
-        }
-
-        .social-holder p {
-            margin-bottom: 24px;
-            color: #666;
-            font-size: 16px;
-            line-height: 1.5;
         }
 
         .social-link {
@@ -97,19 +77,6 @@
 
         /* Mobile responsiveness */
         @media (max-width: 768px) {
-            .social-holder {
-                padding: 30px 24px;
-                margin: 0 16px;
-            }
-
-            .social-holder h1 {
-                font-size: 24px;
-            }
-
-            .social-holder p {
-                font-size: 14px;
-            }
-
             .social-link {
                 padding: 12px 28px;
                 font-size: 16px;
@@ -117,14 +84,6 @@
         }
 
         @media (max-width: 480px) {
-            .social-holder {
-                padding: 24px 20px;
-            }
-
-            .social-holder h1 {
-                font-size: 20px;
-            }
-
             .social-link {
                 padding: 12px 24px;
                 font-size: 15px;
@@ -134,6 +93,7 @@
 </head>
 <body>
     <div class="background"></div>
+    <div class="container">
         <div class="social-holder">
             <a href="https://bsky.app/profile/criticalreal.bsky.social" class="social-link" target="_blank" rel="noopener noreferrer">
                 <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -142,6 +102,7 @@
                 @criticalreal.bsky.social
             </a>
         </div>
+    </div>
     <script>
         // Analytics or tracking can be added here if needed
     </script>
