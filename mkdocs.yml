@@ -1,0 +1,25 @@
+site_name: Zoning For Zero Docs
+docs_dir: docs
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: "#1185fe"
+      accent: teal
+      background: "#FAFAFA"
+  font:
+    text: Nunito
+    headings: "Playfair Display"
+extra_css:
+  - styles/extra.css
+  - styles/fonts.css
+nav:
+  - Home: index.md
+  - About:
+      - Mission: about/mission.md
+      - Research: about/research.md
+  - Guides:
+      - Projector: guides/projector.md
+      - Proxy ranking: guides/proxy_ranking.md
+
+# python -m mkdocs serve -a 0.0.0.0:8000
