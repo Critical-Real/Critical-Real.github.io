@@ -1,4 +1,5 @@
 site_name: Zoning For Zero Docs
+site_url: https://zoningforzero.criticalreal.com
 docs_dir: docs
 theme:
   name: material
