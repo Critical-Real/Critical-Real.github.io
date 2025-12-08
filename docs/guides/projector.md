@@ -1,4 +1,0 @@
-# Projector
-
-**Lorem ipsum**
-
