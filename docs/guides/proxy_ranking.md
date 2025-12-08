@@ -1,4 +1,0 @@
-# Proxy Ranking
-
-**Lorem..**
-
